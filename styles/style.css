@@ -1,0 +1,97 @@
+/* _______ Refresh ________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --main-color: #6e6b6b8e; 
+}
+/* _______ Common Style ________ */
+body{
+    background-color: var(--main-color);
+    
+}
+
+/* _______ Header Style ________ */
+
+.container{
+    background-color: #f5f5f589;
+    border-radius: 30px;
+    margin:2em 7em;
+
+}
+
+.banner{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 2rem;
+   padding: 30px 1em 0 1em;
+}
+#ellipis{
+    padding: 1em 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.banner-text a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: whitesmoke;
+    margin: 5px;
+    background-color: #80878f;
+}
+.fa-angle-right{
+    font-size: 12px;
+}
+
+/* ________ Main Section Style _______ */
+
+.manu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #80878f;
+    height: auto;  
+    width: 300px;  
+    
+}
+.manu-item p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 1em;
+    height: 65px;
+    width: 250px;
+    margin: 10px;
+    cursor: pointer;
+}
+.manu-item p a{
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.manu-item:hover:active p{
+    background-color: rgb(168, 161, 191);
+
+}
+.manu-item:hover p{
+    background-color: #f5f5f589;
+
+}
+.transfer{
+    display:flexbox;
+    width: 70px;
+    height: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 19em;
+    height: 22em;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgba(28, 17, 17, 0.21);
+}
