@@ -155,6 +155,8 @@ body {
 .card .transfer {
     display: flexbox;
     width: 100px;
+    color: #fc8571;
+    background-color: #f7f8fa;
     margin-top: 1.5rem;
     padding: 5px;
 }
@@ -262,6 +264,7 @@ hr {
 }
 
 /* __________ Responsive design _________  */
+                 /* For Tab  */
 
 @media screen and (max-width: 768px) {
 
@@ -297,6 +300,8 @@ hr {
 
     .tab-button button {
         display: block;
+        background-color: #ffdb70;
+        border-radius: 5px;
     }
 }
 
